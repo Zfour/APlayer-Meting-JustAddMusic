@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+   <title>APlayer×Meting×JustAddMusic</title>
+   <meta charset="UTF-8">
+<link rel="stylesheet" href="css/APlayer.min.css"/> 
+<link rel="stylesheet" href="css/justaddmusic.css"/> 
+<link rel="stylesheet" href="css/font-awesome.min.css"/> 
+
+<style>
+
+.button.gray{
+color: #8c96a0;
+text-shadow:1px 1px 1px #fff;
+border:1px solid #dce1e6;
+
+background: -webkit-linear-gradient(top,#f2f3f7,#e4e8ec);
+background: -moz-linear-gradient(top,#f2f3f7,#e4e8ec);
+background: linear-gradient(top,#f2f3f7,#e4e8ec);
+padding:8px;
+}
+.jam-ui{
+color: #8c96a0;
+text-shadow:1px 1px 1px #fff;
+border:1px solid #dce1e6;
+
+background: -webkit-linear-gradient(top,#f2f3f7,#e4e8ec);
+background: -moz-linear-gradient(top,#f2f3f7,#e4e8ec);
+background: linear-gradient(top,#f2f3f7,#e4e8ec);
+padding:2px;
+}
+</style>
+
+    <title>ZFE.ONE</title>
+</head>
+<body>
+<h2 style="margin:30px" align="center">  APlayer×Meting×JustAddMusic </h2>  
+
+<h5 align="center" >🍭 Wow, such a beautiful HTML5 music player with beautiful visualization!</h5>
+
+
+
+
+<h6 align="center">TOOL:&nbsp&nbsp&nbsp<a href="https://github.com/MoePlayer/APlayer">APlayer</a>&nbsp&nbsp&nbsp<a href="https://github.com/metowolf/MetingJS">MetingJS</a>&nbsp&nbsp&nbsp<a href="https://github.com/gskinner/JustAddMusic">JustAddMusic</a> </h6>
+
+
+
+<!--<buttom type="button" class="btn-beautify button--animated outline black" id="musicvisualchange"   style="cursor:pointer" onclick="musicvisualchange()"><i class="far fa-hand-point-right fa-fw"></i>隐藏可视化</buttom>
+-->
+
+
+
+
+
+<div  style="margin:30px 280px 30px 280px" data-order="random"  data-lrc-type="1" class="aplayer bg-black" data-id="5249407673" data-server="netease" data-type="playlist"  data-volume="1.0"></div>
+
+
+
+<br>
+
+<div class="musiccontainer" id="container" style="position: fixed; right:0; bottom:0;"></div>
+
+<buttom  type="buttom" class="button gray" id="musicvisualchange"   style="cursor:pointer;margin-left:280px;" onclick="musicvisualchange()"><i class="fa fa-eye-slash"></i>&nbspHIDE</buttom>
+
+
+<script src="js/jquary.js"></script>
+<script src="js/APlayer.min.jam.js"></script>
+<script src="js/Meting.min.js"></script>
+<script src="js/JustAddMusic.js"></script>
+<script  src="js/jamsetting.js"></script>
+<script  src="js/visualupper.js"></script>
+<script src="js/visualchanger.js"></script>
+</body>
+</html>
