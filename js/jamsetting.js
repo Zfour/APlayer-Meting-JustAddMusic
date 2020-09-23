@@ -48,7 +48,16 @@ $(".aplayer-list").click(function(){
   				  setTimeout(function(){jam.loadAudio(ap.audio.currentSrc);console.log(ap.audio.currentSrc)},500);
 				  setTimeout(function(){ap.play();ap.seek(0);jam.seek(0);ap.volume(1, true)},4000);
 });
-
+$(".aplayer-icon-back").click(function(){
+	              ap.volume(0, true);
+  				  setTimeout(function(){jam.loadAudio(ap.audio.currentSrc);console.log(ap.audio.currentSrc)},500);
+				  setTimeout(function(){ap.play();ap.seek(0);jam.seek(0);ap.volume(1, true)},4000);
+});
+$(".aplayer-icon-forward").click(function(){
+	              ap.volume(0, true);
+  				  setTimeout(function(){jam.loadAudio(ap.audio.currentSrc);console.log(ap.audio.currentSrc)},500);
+				  setTimeout(function(){ap.play();ap.seek(0);jam.seek(0);ap.volume(1, true)},4000);
+});
 console.log(ap.audio.currentSrc)},1500);
 
 
