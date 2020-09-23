@@ -1,4 +1,4 @@
-# APlayer-Meting-JustAddMusic
+# APlayer×Meting×JustAddMusic
 
 This is a music visualization that combines APlayer, Meting and JustAddMusic.
 <br>
